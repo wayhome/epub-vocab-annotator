@@ -1,0 +1,13 @@
+[project]
+name = "epub-vocab-annotator"
+version = "0.1.0"
+description = "为EPUB文件中的重要英文词汇添加注释"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.12.3",
+    "ebooklib>=0.18",
+    "openai>=1.48.0",
+    "tenacity>=9.0.0",
+    "toml>=0.10.2",
+]

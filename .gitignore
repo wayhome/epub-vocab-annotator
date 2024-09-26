@@ -1,0 +1,5 @@
+config.toml
+.venv
+*.epub
+progress.json
+.python-version
