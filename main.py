@@ -101,10 +101,9 @@ def process_content(content, model, client, exclude_words):
 
     # 获取所有重要词汇的翻译
     translations = get_translations(list(important_words), model, client)
-    
+    replaced_words = set()  # 用于跟踪在当前段落中已替换的词
     for paragraph in paragraphs:
         new_contents = []
-        replaced_words = set()  # 用于跟踪在当前段落中已替换的词
         for child in paragraph.children:
             if isinstance(child, NavigableString) and not is_code_or_formula(child.parent):
                 text = child.string

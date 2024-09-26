@@ -36,7 +36,7 @@
 ```toml
 [openai]
 api_key = "your_api_key_here"
-base_url = "https://api.openai.com"
+base_url = "https://api.openai.com/v1"
 model = "gpt-3.5-turbo"
 ```
 
