@@ -2,6 +2,9 @@
 
  epub-vocab-annotator 是一个为 EPUB 电子书提供英文词汇注释的工具，它通过 OpenAI 的语言模型来识别关键词汇，并提供精准的翻译，帮助读者更好地理解和学习英文词汇。
 
+ <img width="916" alt="image" src="https://github.com/user-attachments/assets/b2bc00e5-fc7e-4819-bf93-d3ad2e6cb4e7">
+
+
 ## 功能特点
 
 - 自动识别 EPUB 文件中的重要或困难英文词汇
