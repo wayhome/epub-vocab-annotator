@@ -68,7 +68,6 @@ uv run main.py input.epub output.epub --config config.toml --vocab vocabulary.tx
 - 词汇表中的单词不会被添加注释
 - 请确保您有足够的 OpenAI API 使用额度
 - 处理大型 EPUB 文件可能需要较长时间
-- 建议在使用前备份原始 EPUB 文件
 - 处理过程中会显示进度条,方便了解任务完成情况
 - 如果处理过程中断,可以使用相同的命令重新运行,工具会从上次中断的位置继续处理,并保留之前的所有修改
 
