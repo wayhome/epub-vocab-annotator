@@ -57,7 +57,7 @@ uv run main.py input.epub output.epub --config config.toml --vocab vocabulary.tx
 - `output_file`: 输出的 EPUB 文件路径
 - `--config`: 配置文件路径 (默认: `config.toml`)
 - `--api_key`: OpenAI API 密钥
-- `--base_url`: OpenAI API 基础 URL (默认: `https://api.openai.com`)
+- `--base_url`: OpenAI API 基础 URL (默认: `https://api.openai.com/v1`)
 - `--model`: OpenAI 语言模型名称 (默认: `gpt-3.5-turbo`)
 - `--vocab`: 词汇表文件路径 (默认: `vocabulary.txt`)
 - `--progress`: 进度文件路径 (默认: `progress.json`)
